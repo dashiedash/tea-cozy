@@ -4,6 +4,33 @@
   font-family: Helvetica;
   font-size: 22px;
   margin: 0;
-  opacity: 0.9;
   text-align: center;
 }
+
+/* Navbar - Start */
+nav {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  margin: 0 0.05rem 0.05rem;
+  max-height: 69px;
+  padding: 0.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav img {
+  height: auto;
+  justify-content: flex-start;
+  max-height: 50px;
+  width: auto;
+}
+nav .nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+nav .nav-links a {
+  padding: 0.5rem;
+}
+/* Navbar - End */
