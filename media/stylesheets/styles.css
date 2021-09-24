@@ -41,12 +41,10 @@ nav .nav-links a {
   display: flex;
   margin: 3rem;
   max-height: 32rem;
-  max-width: 55rem;
-  position: relative;
+  max-width: 75rem;
 }
 #banner img {
   height: auto;
-  position: relative;
   width: 100%;
 }
 #banner span {
@@ -56,10 +54,10 @@ nav .nav-links a {
   width: 100%;
 }
 #banner span h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 0.5rem;
 }
 #banner span h4 {
-  font-size: 1.02rem;
+  font-size: 1.25rem;
 }
 /* Banner - End */
