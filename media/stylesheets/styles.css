@@ -5,12 +5,10 @@
   margin: 0;
   text-align: center;
 }
-
 h2 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
 }
-
 h4 {
   font-size: 1.25rem;
 }
@@ -49,8 +47,8 @@ nav img {
   margin: 3rem;
   max-height: 32rem;
   max-width: 75rem;
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 #banner img {
   height: auto;
@@ -69,25 +67,22 @@ nav img {
   margin: 3rem;
   text-align: center;
 }
-
 div.offerings {
-  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 100%;
 }
-
 div.offer {
-  max-width: 18.75rem;
   height: 12.5rem;
-  width: 100%;
   margin: 2rem;
+  max-width: 18.75rem;
+  width: 100%;
 }
-
 div.offer img {
-  height: 100%;
-  width: auto;
   align-self: center;
+  height: 100%;
   margin: 0.625rem;
+  width: auto;
 }
 /* Tea of the Month - End */
