@@ -6,6 +6,14 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
 /* Navbar - Start */
 nav {
   border-bottom: 1px solid seashell;
@@ -20,17 +28,16 @@ nav {
 }
 nav img {
   height: auto;
-  height: auto;
   justify-content: flex-start;
   width: 7rem;
 }
-nav .nav-links {
+.nav-links {
   align-items: center;
   display: flex;
   justify-content: flex-end;
   width: 100%;
 }
-nav .nav-links a {
+.nav-links a {
   padding: 0.5rem;
 }
 /* Navbar - End */
@@ -42,6 +49,8 @@ nav .nav-links a {
   margin: 3rem;
   max-height: 32rem;
   max-width: 75rem;
+  position: relative;
+  overflow: hidden;
 }
 #banner img {
   height: auto;
@@ -53,11 +62,32 @@ nav .nav-links a {
   position: absolute;
   width: 100%;
 }
-#banner span h2 {
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
-}
-#banner span h4 {
-  font-size: 1.25rem;
-}
 /* Banner - End */
+
+/* Tea of the Month - Start */
+#tea-month {
+  margin: 3rem;
+  text-align: center;
+}
+
+div.offerings {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.offer {
+  max-width: 18.75rem;
+  height: 12.5rem;
+  width: 100%;
+  margin: 2rem;
+}
+
+div.offer img {
+  height: 100%;
+  width: auto;
+  align-self: center;
+  margin: 0.625rem;
+}
+/* Tea of the Month - End */
