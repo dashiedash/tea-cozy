@@ -86,3 +86,45 @@ div.offer img {
   width: auto;
 }
 /* Tea of the Month - End */
+
+/* Location - Start */
+#location {
+  display: flex;
+  background-image: url("../img/.jpeg/locationBG.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  height: 31.25rem;
+  width: auto;
+  margin: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#location h2 {
+  background-color: unset;
+  padding: 1rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  background-color: unset;
+  max-width: 100%;
+}
+
+.loc-card {
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0 1.25rem 2rem;
+}
+
+.loc-card h4 {
+  margin-bottom: 1rem;
+}
+
+.loc-card p {
+  line-height: 2rem;
+}
+/* Location - End */
